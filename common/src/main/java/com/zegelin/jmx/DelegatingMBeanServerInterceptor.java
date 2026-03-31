@@ -7,6 +7,8 @@ import javax.management.loading.ClassLoaderRepository;
 import java.io.ObjectInputStream;
 import java.util.Set;
 
+
+// --add-opens java.management/com.sun.jmx.interceptor=ALL-UNNAMED --add-opens java.management/com.sun.jmx.mbeanserver=ALL-UNNAMED
 public class DelegatingMBeanServerInterceptor implements MBeanServerInterceptor {
     private final MBeanServer delegate;
 
