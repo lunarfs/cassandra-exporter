@@ -5,11 +5,11 @@
     <parent>
         <groupId>com.zegelin.cassandra-exporter</groupId>
         <artifactId>exporter-parent</artifactId>
-        <version>0.10.0</version>
+        <version>0.10.1</version>
     </parent>
 
     <artifactId>agent</artifactId>
-    <version>0.10.0</version>
+    <version>0.10.1</version>
 
     <name>Cassandra Exporter Agent</name>
 
